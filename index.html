@@ -17,13 +17,13 @@
     </a-assets>
 
     <a-marker preset="hiro">
-      <!-- 台紙サイズに合わせてplaneを設定 -->
+      <!-- 台紙全体を覆う -->
       <a-plane
         src="#cardImage"
         rotation="-90 0 0"
-        width="1"      <!-- 台紙幅91mmに対応 -->
-        height="0.604" <!-- 台紙高さ55mmに対応 -->
-        position="0 0 0">
+        width="1.0"      <!-- 台紙幅91mmに対応 -->
+        height="0.604"   <!-- 台紙高さ55mmに対応 -->
+        position="0.357 0 0"> <!-- 台紙中央に合わせてオフセット -->
       </a-plane>
     </a-marker>
 
