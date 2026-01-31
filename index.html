@@ -17,12 +17,13 @@
     </a-assets>
 
     <a-marker preset="hiro">
+      <!-- 名刺サイズに合わせた plane -->
       <a-plane
         src="#cardImage"
-        position="0 0 0"
-        rotation="-90 0 0"
-        width="1"
-        height="0.6">
+        width="0.091"   <!-- 91mm -->
+        height="0.055"  <!-- 55mm -->
+        position="0.05 0 0" <!-- マーカー中心から少し右にずらす例 -->
+        rotation="-90 0 0">
       </a-plane>
     </a-marker>
 
